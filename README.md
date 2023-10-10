@@ -1,9 +1,10 @@
 # Clinical And Registry Entries (CARE) Semantic Model
 
 <p align="center"> 
-	<img src="images/CARE-SM_logo.png "width="400" height="400"> 
+	<img src="https://raw.githubusercontent.com/CARE-SM/CARE-Semantic-Model/main/images/CARE-SM_logo.png"width="400" height="400"> 
 <p align="center" > </p> 
-
+<p align="center"><b>Take CARE of your data!</b></p>
+<p align="center"><b>FAIRly!</b></p> 
 <hr>
 
 * [What is CARE-SM for](#introduction-to-care-sm)
@@ -37,12 +38,12 @@ Moreover, each instance within CARE-SM is associated with a domain-specific onto
 ### Core structure
 
 <p align="center"> 
-	<img src="images/CARE-SM-Core.png"> 
+	<img src="https://raw.githubusercontent.com/CARE-SM/CARE-Semantic-Model/main/images/CARE-SM-Core.png"> 
 <p align="center"> Figure 1: Core structure </p> 
 
 <hr>
 <p align="center"> 
-	<img src="images/CARE-SM-Schema.png"> 
+	<img src="https://raw.githubusercontent.com/CARE-SM/CARE-Semantic-Model/main/images/CARE-SM-Schema.png"> 
 <p align="center"> Figure 2: Core structure schema </p> 
 <hr>
 
@@ -58,7 +59,7 @@ In addition to the patient's timeline and temporal information, common context _
 This metadata requires the combination of RDF-Quads and RDF-Triples, rather than only RDF Triple used for regular knowledge graphs. The core structure of the model is represented using RDF-Quad, containing as a fourth element (Quad) the same context ID URL. This URL is used as subject for other RDF Triples that define the metadata layer ([Figure 3](#context-around-every-data-element)).
 
 <p align="center"> 
-	<img src="images/CARE-SM-Context.png"> 
+	<img src="https://raw.githubusercontent.com/CARE-SM/CARE-Semantic-Model/main/images/CARE-SM-Context.png"> 
 <p align="center"> Figure 3: Context representation </p> 
 
 <hr>
@@ -70,36 +71,36 @@ Based on CARE-SM Core structure, several data element representations can be per
 
 1. Demographic personal information:
 
-    * [Birthdate]() - patient date of birth
-    * [Sex]() -  patient sex at birth
-    * [Body measurement]() - patient physical measurement of the body. 
+    * [Birthdate](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Birthdate) - patient date of birth
+    * [Sex](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Sex) -  patient sex at birth
+    * [Body measurement](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Body_measurement) - patient physical measurement of the body. 
 
 2. Participation status:
-    * [Status]() - patient alive or dead status
-    * [Deathdate]() -  patient date of death
+    * [Status](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Status) - patient alive or dead status
+    * [Deathdate](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Deathdate) -  patient date of death
 
 3. Medical history:
-    * [First confirmed visit]() - patient first contact with specialized center
-    * [Symptoms onset]() - patient signs/symptoms onset
+    * [First confirmed visit](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-First_visit) - patient first contact with specialized center
+    * [Symptoms onset](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Symptoms_onset) - patient signs/symptoms onset
 
 4. Conditions and medical findings:
-    * [Diagnosis]() - patient disease diagnosis
-    * [Symptoms and phenotype assessment]() -  patient date of signs/symptoms and its onset
-    * [Genetic information]() -  genetic diagnosis retained by the specialized center
-    * [Disability]() - patient disability score
-    * [Laboratory Measurement]() - patient laboratory measurements.
-    * [Imaging]() -  any patient medical imaging data.
+    * [Diagnosis](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Diagnosis) - patient disease diagnosis
+    * [Symptoms and phenotype assessment](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Symptoms) -  patient date of signs/symptoms and its onset
+    * [Genetic information](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype) -  genetic diagnosis retained by the specialized center
+    * [Disability](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Disability) - patient disability score
+    * [Laboratory Measurement](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Laboratory) - patient laboratory measurements.
+    * [Medical imaging](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Imaging) -  any patient medical imaging data.
 
 5. Research availability and consent:
-    * [Biobank]() - availability of subject's samples in a biobank
-    * [Consent]() -  consent given by a subject
+    * [Biobank](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Biobank) - availability of subject's samples in a biobank
+    * [Consent](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Consent) -  consent given by a subject
 
 6. Treatment-related interventions:
-    * [Medications]() - patient medications based on a prescription.
-    * [Treatment/Therapy]() -  any component presented in treatment  and therapy procedures.
+    * [Medication](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Medication) - patient medications based on a prescription.
+    * [Medical intervetion](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Intervention) -  any component presented in treatment and therapy/surgery procedures.
 
 7. Clinical trials:
-    * [Clinical Trials]() -  patient participation in clinical trials.
+    * [Clinical Trials](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Clinical_trials) -  patient participation in clinical trials.
 
 
 ## Implementation
