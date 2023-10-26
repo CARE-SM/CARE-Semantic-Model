@@ -97,7 +97,7 @@ Based on CARE-SM Core structure, several data element representations can be per
 
 6. Treatment-related interventions:
     * [Medication](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Medication) - patient medications based on a prescription.
-    * [Medical intervetion](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Intervention) -  any component presented in treatment and therapy/surgery procedures.
+    * [Medical intervention](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Intervention) -  any component presented in treatment and therapy/surgery procedures.
 
 7. Clinical trials:
     * [Clinical Trials](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Clinical_trials) -  patient participation in clinical trials.
@@ -122,3 +122,5 @@ To cite this model please use this publication [Semantic modeling of common data
 ## Acknowledgement
 This work was done in the [European Joint Programme on Rare Diseases (EJP RD)](https://www.ejprarediseases.org/) project which has received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement N°82557.  
 ![EU logo](https://github.com/ejp-rd-vp/smart-guidance/blob/main/images/eu-flag.png?raw=true)  
+
+
