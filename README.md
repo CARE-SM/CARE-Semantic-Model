@@ -98,9 +98,9 @@ Based on CARE-SM Core structure, several data element representations can be per
     * [Surgical intervention](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Surgery) -  Therapeutical interventation related to a surgerical procedure.
 
 7. Genetic assessment:
-    * [Genetic variant](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype_variant) -  Genetic variant assessment
-    * [Zigosity](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype_zygosity) -  Zigosity of a certain genetic variant
-    * [Aminoacid location](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype_aminoacid) -  Position of a aminoacid in a certain protein chain.
+    * [Genetic variant](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-variant) -  Genetic variant assessment
+    * [Zigosity](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-zygosity) -  Zigosity of a certain genetic variant
+    * [Aminoacid location](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-aminoacid) -  Position of a aminoacid in a certain protein chain.
 
 8. Research sample availability and consent:
     * [Biobank](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Biobank) - availability of subject's samples in a biobank
