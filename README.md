@@ -71,36 +71,43 @@ Based on CARE-SM Core structure, several data element representations can be per
 
 1. Demographic personal information:
 
-    * [Birthdate](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Birthdate) - patient date of birth
-    * [Sex](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Sex) -  patient sex at birth
-    * [Body measurement](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Body_measurement) - patient physical measurement of the body. 
+    * [Birthdate](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Birthdate) - Patient date of birth
+    * [Sex](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Sex) -  Patient sex at birth
+    * [Body measurement](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Body_measurement) - Patient physical measurement of the body. 
 
-2. Participation status:
-    * [Status](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Status) - patient alive or dead status
-    * [Deathdate](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Deathdate) -  patient date of death
+2. Questionnaire/PROMs representations:
+    * [Disability](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Questionnaire-disability) - Patient disability score/assessment
+    * [Education level](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Questionnaire-education) - Patient scholar level code
+    * [Symptoms onset](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Questionnaire-symptoms_onset) - Patient signs/symptoms onset
 
-3. Medical history:
-    * [First confirmed visit](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-First_visit) - patient first contact with specialized center
-    * [Symptoms onset](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Symptoms_onset) - patient signs/symptoms onset
+3. Participation status and medical history:
+    * [First confirmed visit](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-First_visit) - Patient first contact with specialized center
+    * [Status](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Status) - Patient healthcare participation status
+    * [Deathdate](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Deathdate) -  Patient date of death
 
-4. Conditions and medical findings:
-    * [Diagnosis](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Diagnosis) - patient disease diagnosis
-    * [Symptoms and phenotype assessment](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Symptoms) -  patient date of signs/symptoms and its onset
-    * [Genetic information](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype) -  genetic diagnosis retained by the specialized center
-    * [Disability](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Disability) - patient disability score
-    * [Laboratory Measurement](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Laboratory) - patient laboratory measurements.
-    * [Medical imaging](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Imaging) -  any patient medical imaging data.
+4. Conditions and findings assesments:
+    * [Diagnosis](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Diagnosis) - Patient disease diagnosis
+    * [Symptoms and phenotype assessment](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Symptom) -  Patient symptom/phenotype assessment
 
-5. Research availability and consent:
+5. Clinical measurements:
+    * [Laboratory measurement](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Laboratory) - Patient laboratory measurements.
+    * [Medical imaging](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Imaging) -  Patient medical imaging data.
+
+6. Treatment-related assesments:
+    * [Medication](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Medication) - Patient drug administration based on a prescription.
+    * [Surgical intervention](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Surgery) -  Therapeutical interventation related to a surgerical procedure.
+
+7. Genetic assessment:
+    * [Genetic variant](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-variant) -  Genetic variant assessment
+    * [Zigosity](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-zygosity) -  Zigosity of a certain genetic variant
+    * [Aminoacid location](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-aminoacid) -  Position of a aminoacid in a certain protein chain.
+
+8. Research sample availability and consent:
     * [Biobank](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Biobank) - availability of subject's samples in a biobank
     * [Consent](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Consent) -  consent given by a subject
 
-6. Treatment-related interventions:
-    * [Medication](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Medication) - patient medications based on a prescription.
-    * [Medical intervention](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Intervention) -  any component presented in treatment and therapy/surgery procedures.
-
-7. Clinical trials:
-    * [Clinical Trials](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Clinical_trials) -  patient participation in clinical trials.
+9. Clinical trials:
+    * [Clinical trial](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Clinical_trial) -  patient participation in clinical trial.
 
 
 ## Implementation
