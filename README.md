@@ -72,6 +72,7 @@ Based on CARE-SM Core structure, several data element representations can be per
 1. Demographic personal information:
 
     * [Birthdate](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Birthdate) - Patient date of birth
+    * [Birthyear](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Birthyear) - Year in which a person was born.
     * [Sex](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Sex) -  Patient sex at birth
     * [Body measurement](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Body_measurement) - Patient physical measurement of the body. 
 
