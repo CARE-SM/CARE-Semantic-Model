@@ -74,11 +74,10 @@ Based on CARE-SM Core structure, several data element representations can be per
     * [Birthdate](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Birthdate) - Patient date of birth
     * [Birthyear](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Birthyear) - Year in which a person was born.
     * [Sex](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Sex) -  Patient sex at birth
-    * [Body measurement](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Body_measurement) - Patient physical measurement of the body. 
+    * [Education level](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Education) - Patient scholar level code measured by ISCED
 
 2. Questionnaire/PROMs representations:
     * [Disability](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Questionnaire-disability) - Patient disability score/assessment
-    * [Education level](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Questionnaire-education) - Patient scholar level code
     * [Symptoms onset](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Questionnaire-symptoms_onset) - Patient signs/symptoms onset
 
 3. Participation status and medical history:
@@ -92,6 +91,7 @@ Based on CARE-SM Core structure, several data element representations can be per
 
 5. Clinical measurements:
     * [Laboratory measurement](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Laboratory) - Patient laboratory measurements.
+    * [Body measurement](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Body_measurement) - Patient physical measurement of the body. 
     * [Medical imaging](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Imaging) -  Patient medical imaging data.
 
 6. Treatment-related assesments:
@@ -100,8 +100,9 @@ Based on CARE-SM Core structure, several data element representations can be per
 
 7. Genetic assessment:
     * [Genetic variant](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-variant) -  Genetic variant assessment
-    * [Zigosity](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-zygosity) -  Zigosity of a certain genetic variant
-    * [Aminoacid location](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-aminoacid) -  Position of a aminoacid in a certain protein chain.
+    * [Zygosity](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-zygosity) -  Zigosity of a certain genetic variant
+    * [Protein variant](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-Protein) -  Protein variant assessment
+    <!-- * [Aminoacid location](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-aminoacid) -  Position of a aminoacid in a certain protein chain. -->
 
 8. Research sample availability and consent:
     * [Biobank](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Biobank) - availability of subject's samples in a biobank
