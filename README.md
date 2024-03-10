@@ -75,7 +75,7 @@ Based on CARE-SM Core structure, several data element representations can be per
     * [Deathdate](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Deathdate) -  Patient date of death.
     * [First confirmed visit](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-First_visit) - Patient first contact with specialized center.
     * [Participation status](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Status) - Patient healthcare participation status.
-    * [Symptoms onset](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Questionnaire-symptoms_onset) - Patient signs/symptoms onset.
+    * [Symptoms onset](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Symptoms_onset) - Patient signs/symptoms onset.
 
 2. Demographic and questionnaire/PROMs representations:
     * [Sex](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Sex) -  Patient sex at birth.
