@@ -91,9 +91,9 @@ Based on CARE-SM Core structure, several data element representations can be per
     * [Laboratory measurement](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Laboratory) - Patient laboratory measurements.
     * [Body measurement](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Body_measurement) - Patient physical measurement of the body. 
     * [Medical imaging](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Imaging) -  Patient medical imaging data.
-    * [Genetic variant](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-variant) -  Genetic variant assessment.
-    * [Zygosity](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-zygosity) -  Zygosity of a certain genetic variant.
-    * [Protein variant](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-Protein) -  Protein variant assessment.
+    * [Genetic assessment](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-variant) -  Genetic variant assessment.
+    <!-- * [Zygosity](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-zygosity) -  Zygosity of a certain genetic variant.
+    * [Protein variant](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-Protein) -  Protein variant assessment. -->
     <!-- * [Aminoacid location](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-aminoacid) -  Position of a aminoacid in a certain protein chain. -->
 
 5. Treatment-related assesments:
