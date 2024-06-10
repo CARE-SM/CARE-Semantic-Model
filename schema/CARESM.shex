@@ -1,13 +1,13 @@
-PREFIX sio: <http://semanticscience.org/resource/>
+PREFIX sio: <http://semanticscience.org/ontology/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX caresm: <http://example.com/caresm/>
 
 caresm:ID {
-  rdf:type [sio:identifier]
+  rdf:type [sio:SIO_000115]
 }
 
 caresm:Individual {
-  rdf:type [sio:person] ;
+  rdf:type [sio:SIO_000498] ;
   sio:denotes @caresm:ID ;
   sio:has-role @caresm:Role
 }
@@ -28,27 +28,27 @@ caresm:Process {
 }
 
 caresm:Specific_process {
-  rdf:type [sio:process]
+  rdf:type [sio:SIO_000006]
 }
 
 caresm:Input {
-  rdf:type [sio:information-content-entity]
+  rdf:type [sio:SIO_000015]
 }
 
 caresm:Agent {
-  rdf:type [sio:information-content-entity]
+  rdf:type [sio:SIO_000015]
 }
 
 caresm:Target {
-  rdf:type [sio:information-content-entity]
+  rdf:type [sio:SIO_000015]
 }
 
 caresm:Output {
-  rdf:type [sio:information-content-entity]
+  rdf:type [sio:SIO_000015]
 }
 
 caresm:Specification {
-  rdf:type [sio:specification] ;
+  rdf:type [sio:SIO_000090] ;
   sio:has-part @caresm:Substance ;
   sio:has-part @caresm:ActivityRoute ;
   sio:has-part @caresm:Concentration ;
@@ -56,27 +56,27 @@ caresm:Specification {
 }
 
 caresm:Substance {
-  rdf:type [sio:functional-specification]
+  rdf:type [sio:SIO_000315]
 }
 
 caresm:ActivityRoute {
-  rdf:type [sio:action-specification]
+  rdf:type [sio:SIO_000091]
 }
 
 caresm:Concentration {
-  rdf:type [sio:concentration] ;
+  rdf:type [sio:SIO_001088] ;
   sio:has-unit @caresm:Unit
 }
 
 caresm:Frequency {
-  rdf:type [sio:frequency] ;
+  rdf:type [sio:SIO_001367] ;
   sio:has-unit @caresm:Unit
 }
 
 caresm:Attribute {
-  rdf:type [sio:attribute]
+  rdf:type [sio:SIO_000614]
 }
 
 caresm:Unit {
-  rdf:type [sio:unit-of-measurement]
+  rdf:type [sio:SIO_000074]
 }
