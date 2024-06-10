@@ -13,12 +13,12 @@ caresm:Individual {
 }
 
 caresm:Role {
-  rdf:type [sio:role] ;
+  rdf:type [sio:SIO_000016] ;
   sio:realized-in @caresm:Process
 }
 
 caresm:Process {
-  rdf:type [sio:process] ;
+  rdf:type [sio:SIO_000006] ;
   sio:overlaps-with @caresm:Specific_process ;
   sio:has-input @caresm:Input ;
   sio:has-agent @caresm:Agent ;
