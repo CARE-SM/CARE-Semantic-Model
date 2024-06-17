@@ -1,0 +1,82 @@
+PREFIX sio: <http://semanticscience.org/ontology/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX caresm: <http://example.com/caresm/>
+
+caresm:ID {
+  rdf:type [sio:SIO_000115]
+}
+
+caresm:Individual {
+  rdf:type [sio:SIO_000498] ;
+  sio:denotes @caresm:ID ;
+  sio:has-role @caresm:Role
+}
+
+caresm:Role {
+  rdf:type [sio:SIO_000016] ;
+  sio:realized-in @caresm:Process
+}
+
+caresm:Process {
+  rdf:type [sio:SIO_000006] ;
+  sio:overlaps-with @caresm:Specific_process ;
+  sio:has-input @caresm:Input ;
+  sio:has-agent @caresm:Agent ;
+  sio:has-target @caresm:Target ;
+  sio:has-output @caresm:Output ;
+  sio:is-specified-by @caresm:Specification
+}
+
+caresm:Specific_process {
+  rdf:type [sio:SIO_000006]
+}
+
+caresm:Input {
+  rdf:type [sio:SIO_000015]
+}
+
+caresm:Agent {
+  rdf:type [sio:SIO_000015]
+}
+
+caresm:Target {
+  rdf:type [sio:SIO_000015]
+}
+
+caresm:Output {
+  rdf:type [sio:SIO_000015]
+}
+
+caresm:Specification {
+  rdf:type [sio:SIO_000090] ;
+  sio:has-part @caresm:Substance ;
+  sio:has-part @caresm:ActivityRoute ;
+  sio:has-part @caresm:Concentration ;
+  sio:has-part @caresm:Frequency
+}
+
+caresm:Substance {
+  rdf:type [sio:SIO_000315]
+}
+
+caresm:ActivityRoute {
+  rdf:type [sio:SIO_000091]
+}
+
+caresm:Concentration {
+  rdf:type [sio:SIO_001088] ;
+  sio:has-unit @caresm:Unit
+}
+
+caresm:Frequency {
+  rdf:type [sio:SIO_001367] ;
+  sio:has-unit @caresm:Unit
+}
+
+caresm:Attribute {
+  rdf:type [sio:SIO_000614]
+}
+
+caresm:Unit {
+  rdf:type [sio:SIO_000074]
+}
