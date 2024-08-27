@@ -1,7 +1,7 @@
 # Clinical And Registry Entries (CARE) Semantic Model
 
 <p align="center"> 
-	<img src="https://raw.githubusercontent.com/CARE-SM/CARE-Semantic-Model/main/images/CARE-SM_logo.png"width="400" height="400"> 
+    <img src="https://raw.githubusercontent.com/CARE-SM/CARE-Semantic-Model/main/images/CARE-SM_logo.png"width="400" height="400"> 
 <p align="center" > </p> 
 <p align="center"><b>Take CARE of your data!</b></p>
 <p align="center"><b>FAIRly!</b></p> 
@@ -11,7 +11,8 @@
 * [How is CARE-SM born?](#genesis-of-care-sm)
 * [What design principles underlie CARE-SM?](#foundational-design-principles-of-care-sm)
     * [Core structure](#core-structure)
-    * [List of defined data elements](#list-of-defined-data-elements)
+    * [Context metadata](#context-around-every-data-element)
+* [List of defined data elements](#list-of-defined-data-elements)
 * [Data model implementation](#implementation)
 * [Full Documentation](#full-documentation)
 * [Communication and feedback](#communication-and-feedback)
@@ -38,12 +39,12 @@ Moreover, each instance within CARE-SM is associated with a domain-specific onto
 ### Core structure
 
 <p align="center"> 
-	<img src="https://raw.githubusercontent.com/CARE-SM/CARE-Semantic-Model/main/images/CARE-SM-Core.png"> 
+    <img src="https://raw.githubusercontent.com/CARE-SM/CARE-Semantic-Model/main/images/CARE-SM-Core.png"> 
 <p align="center"> Figure 1: Core structure </p> 
 
 <hr>
 <p align="center"> 
-	<img src="https://raw.githubusercontent.com/CARE-SM/CARE-Semantic-Model/main/images/CARE-SM-Schema.png"> 
+    <img src="https://raw.githubusercontent.com/CARE-SM/CARE-Semantic-Model/main/images/CARE-SM-Schema.png"> 
 <p align="center"> Figure 2: Core structure schema </p> 
 <hr>
 
@@ -59,13 +60,13 @@ In addition to the patient's timeline and temporal information, common context _
 This metadata requires the combination of RDF-Quads and RDF-Triples, rather than only RDF Triple used for regular knowledge graphs. The core structure of the model is represented using RDF-Quad, containing as a fourth element (Quad) the same context ID URL. This URL is used as subject for other RDF Triples that define the metadata layer ([Figure 3](#context-around-every-data-element)).
 
 <p align="center"> 
-	<img src="https://raw.githubusercontent.com/CARE-SM/CARE-Semantic-Model/main/images/CARE-SM-Context.png"> 
+    <img src="https://raw.githubusercontent.com/CARE-SM/CARE-Semantic-Model/main/images/CARE-SM-Context.png"> 
 <p align="center"> Figure 3: Context representation </p> 
 
 <hr>
 
 
-### List of defined data elements
+## List of defined data elements
 
 Based on CARE-SM Core structure, several data element representations can be performed by defining a combination of data model instances, domain-specific ontological terms and its data value. This is a list of data elements presented at patient data registries that can be represented using this data model:
 
@@ -92,9 +93,6 @@ Based on CARE-SM Core structure, several data element representations can be per
     * [Body measurement](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Body_measurement) - Patient physical measurement of the body. 
     * [Medical imaging](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Imaging) -  Patient medical imaging data.
     * [Genetic assessment](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-variant) -  Genetic variant assessment.
-    <!-- * [Zygosity](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-zygosity) -  Zygosity of a certain genetic variant.
-    * [Protein variant](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-Protein) -  Protein variant assessment. -->
-    <!-- * [Aminoacid location](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-aminoacid) -  Position of a aminoacid in a certain protein chain. -->
 
 5. Treatment-related assesments:
     * [Medication](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Medication) - Patient drug administration based on a prescription.
@@ -109,7 +107,9 @@ Based on CARE-SM Core structure, several data element representations can be per
 
 ## Implementation
 
-This repository is mainly dedicated to present the principles behind the data model and its behavior. To know more about hot to implement it, visit [the implementation repository](https://github.com/CARE-SM/CARE-SM-Implementation).
+This repository primarily focuses on presenting the principles behind the data model and its behavior through a theoretical description.
+
+For information on various workflows for implementing this data model, visit our [CARE-SM implementation repository](https://github.com/CARE-SM/CARE-SM-Implementation).
 
 
 ## Full Documentation
