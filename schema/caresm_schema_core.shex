@@ -3,7 +3,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX sio: <http://semanticscience.org/resource/>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
-PREFIX caresm: <http://example.com/caresm/>
+PREFIX caresm: <http://caresm.com/caresm/>
 
 caresm:identifierShape IRI {
     sio:SIO_000020 @caresm:roleShape ;
@@ -24,10 +24,10 @@ caresm:roleShape IRI {
 
 caresm:processShape IRI {
     sio:SIO_000291 @caresm:targetShape ;
-    sio:SIO_000139 @caresm:agentShape ;
     sio:SIO_000230 @caresm:inputShape ;
     sio:SIO_000229 @caresm:outputShape ;
     sio:SIO_000339 @caresm:protocolShape ;
+    sio:SIO_000028 @specificProcessShape ;
     a [sio:SIO_000006] ;
     a IRI? ;
     rdfs:comment xsd:string?
@@ -36,6 +36,7 @@ caresm:processShape IRI {
 caresm:outputShape IRI {
     sio:SIO_000628 @caresm:attributeShape ;
     sio:SIO_000221 @caresm:unitShape ;
+    sio:SIO_000671 @caresm:outputIdentifierShape ;
     sio:SIO_000300 xsd:float? ;
     sio:SIO_000300 xsd:integer? ;
     sio:SIO_000300 xsd:date? ;
@@ -45,7 +46,7 @@ caresm:outputShape IRI {
 }
 
 caresm:protocolShape IRI {
-    sio:SIO_000028 @caresm:substanceShape ;
+    sio:SIO_000028 @caresm:functionalSpecificationShape ;
     sio:SIO_000028 @caresm:actionSpecificationShape ;
     sio:SIO_000028 @caresm:concentrationShape ;
     sio:SIO_000028 @caresm:frequencyShape ;
@@ -62,10 +63,8 @@ caresm:concentrationShape IRI {
 }
 
 caresm:specificProcessShape IRI {
-    sio:SIO_000325 @caresm:processShape ;
     a [sio:SIO_000006] ;
     a IRI?
-
 }
 
 caresm:inputShape IRI {
@@ -78,8 +77,9 @@ caresm:targetShape IRI {
     a IRI?
 }
 
-caresm:agentShape IRI {
-    a [sio:SIO_000015] ;
+caresm:outputIdentifierShape IRI {
+    sio:SIO_000300 xsd:string? ;
+    a [sio:SIO_000115] ;
     a IRI?
 }
 
@@ -93,7 +93,7 @@ caresm:unitShape IRI {
     a IRI?
 }
 
-caresm:substanceShape IRI {
+caresm:functionalSpecificationShape IRI {
     a [sio:SIO_000315] ;
     a IRI?
 }

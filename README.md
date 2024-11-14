@@ -43,10 +43,6 @@ Moreover, each instance within CARE-SM is associated with a domain-specific onto
 <p align="center"> Figure 1: Core structure </p> 
 
 <hr>
-<p align="center"> 
-    <img src="https://raw.githubusercontent.com/CARE-SM/CARE-Semantic-Model/main/images/CARE-SM-Schema.png"> 
-<p align="center"> Figure 2: Core structure schema </p> 
-<hr>
 
 
 ### Context around every data element
@@ -86,13 +82,13 @@ Based on CARE-SM Core structure, several data element representations can be per
 
 3. Conditions and findings assesments:
     * [Diagnosis](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Diagnosis) - Patient disease diagnosis.
-    * [Symptom/phenotype assessment](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Symptom) -  Patient symptom/phenotype assessment.
+    * [Symptom/phenotype](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Symptom) -  Patient symptom/phenotype assessment.
 
 4. Clinical and molecular measurements:
     * [Laboratory measurement](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Laboratory) - Patient laboratory measurements.
     * [Body measurement](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Body_measurement) - Patient physical measurement of the body. 
     * [Medical imaging](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Imaging) -  Patient medical imaging data.
-    * [Genetic assessment](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-variant) -  Genetic variant assessment.
+    * [Genetic](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Genotype-variant) -  Pathogenic genetic variant assessment.
 
 5. Treatment-related assesments:
     * [Medication](https://github.com/CARE-SM/CARE-Semantic-Model/wiki/CARE-SM-Medication) - Patient drug administration based on a prescription.
