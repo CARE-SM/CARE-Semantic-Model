@@ -1,0 +1,64 @@
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX sio: <http://semanticscience.org/resource/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ordo: <http://www.orpha.net/ORDO/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?record
+WHERE {
+  ?record a sio:SIO_001027 .
+
+  FILTER NOT EXISTS {
+    GRAPH ?record {
+      ?person sio:SIO_000228 ?role .
+      ?role a sio:SIO_000016 ;
+            sio:SIO_000356 ?process .
+            
+      ?id sio:SIO_000020 ?role ;
+          sio:SIO_000300 ?patient_id .
+
+      ?process a sio:SIO_000006;
+               sio:SIO_000229 ?output ;
+               sio:SIO_000291 ?target ;
+               sio:SIO_000230 ?input ;
+               sio:SIO_000339 ?protocol ;
+               sio:SIO_000028 ?specific_method .
+
+      ?output a sio:SIO_000015 ;
+              sio:SIO_000628 ?attribute ;
+              sio:SIO_000671 ?output_identifier .
+
+      ?attribute a sio:SIO_000614 .
+      ?output_identifier a sio:SIO_000115 .
+      ?input a sio:SIO_000015 .
+      ?target a sio:SIO_000015 .
+      ?specific_method a sio:SIO_000006 .
+
+      ?protocol a sio:SIO_000090 ;
+                sio:SIO_000028 ?frequency, ?substance, ?concentration .
+
+      ?substance a sio:SIO_000315 .
+      ?concentration a sio:SIO_001088 .
+      ?frequency a sio:SIO_001367 .
+    }
+
+    ?record rdfs:label ?record_label ;
+            sio:SIO_000680 ?startdate ;
+            sio:SIO_000681 ?enddate ;
+            sio:SIO_000687 ?age ;
+            sio:SIO_000300 ?record_id ;
+            sio:SIO_000068 ?medical_history, ?event .
+
+    ?medical_history a sio:SIO_010673 ;
+                     sio:SIO_000332 ?person_timeline .
+    ?person_timeline a sio:SIO_000498 ;
+                     sio:SIO_000671 ?person_identifier .
+    ?person_identifier a sio:SIO_000115 ;
+                       sio:SIO_000300 ?patient_id .
+
+    ?event a sio:SIO_000088 .
+    ?age a sio:SIO_001013 .
+    ?startdate a sio:SIO_000031 .
+    ?enddate a sio:SIO_000032 .
+  }
+}
