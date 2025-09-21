@@ -21,25 +21,24 @@ WHERE {
                sio:SIO_000229 ?output ;
                sio:SIO_000291 ?target ;
                sio:SIO_000230 ?input ;
-               sio:SIO_000339 ?protocol ;
                sio:SIO_000028 ?specific_method .
 
       ?output a sio:SIO_000015 ;
               sio:SIO_000628 ?attribute ;
-              sio:SIO_000671 ?output_identifier .
+              sio:SIO_000339 ?specification .
 
       ?attribute a sio:SIO_000614 .
-      ?output_identifier a sio:SIO_000115 .
       ?input a sio:SIO_000015 .
       ?target a sio:SIO_000015 .
       ?specific_method a sio:SIO_000006 .
 
-      ?protocol a sio:SIO_000090 ;
-                sio:SIO_000028 ?frequency, ?substance, ?concentration .
+      ?specification a sio:SIO_000090 ;
+                sio:SIO_000028 ?frequency, ?notation, ?cause, ?functional_specification .
 
-      ?substance a sio:SIO_000315 .
-      ?concentration a sio:SIO_001088 .
+      ?notation a sio:SIO_001385 .
+      ?functional_specification a sio:SIO_000315 .
       ?frequency a sio:SIO_001367 .
+      ?cause a sio:SIO_001053 .
     }
 
     ?record rdfs:label ?record_label ;
