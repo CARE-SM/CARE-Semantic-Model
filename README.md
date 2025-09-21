@@ -40,7 +40,7 @@ This work was originated in the [European Joint Programme on Rare Diseases (EJP 
   <img src="https://github.com/CARE-SM/CARE-SM-docs/blob/main/docs/assets/eu.png?raw=true" alt="EU logo" height="80">
 </p>
 
-After the end of EJP RD project, this work was led and mantained by several researchers of the [Wilkinsonlab](https://www.cbgp.upm.es/index.php/es/?option=com_content&view=article&id=179) at Universidad Politécnica de Madrid.
+After the end of EJP RD project, this work was led and mantained by several researchers of the [Wilkinsonlab](http://wilkinsonlab.info/) at Universidad Politécnica de Madrid.
 
 <p align="center">
   <img src="https://github.com/CARE-SM/CARE-SM-docs/blob/main/docs/assets/UPM.png?raw=true" alt="EU logo" width="200">
