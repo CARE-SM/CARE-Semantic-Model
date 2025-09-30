@@ -1,0 +1,62 @@
+name: Data Elements Feedback
+description: Request feedback for creating or editing a data element
+title: "[Data Element]: <short title>"
+labels: ["feedback", "data-element"]
+body:
+  - type: dropdown
+    id: action
+    attributes:
+      label: What would you like to do?
+      options:
+        - Create a new data element
+        - Edit or expand an existing data element
+    validations:
+      required: true
+
+  - type: input
+    id: new-element-name
+    attributes:
+      label: If creating a new element, what is its proposed name?
+      placeholder: e.g. "Phenotype"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: existing-element
+    attributes:
+      label: If editing, which existing element?
+      description: Choose from the existing data elements.
+      options:
+        - "Birthdate"
+        - "Birthyear"
+        - "Deathdate"
+        - "Country"
+        - "Sex"
+        - "Status"
+        - "First_visit"
+        - "Diagnosis"
+        - "Phenotype"
+        - "Symptoms_onset"
+        - "Examination"
+        - "Laboratory"
+        - "Genetic"
+        - "Questionnaire"
+        - "Disability"
+        - "Prescription"
+        - "Medication"
+        - "Surgery"
+        - "Hospitalization"
+        - "Biobank"
+        - "Consent"
+        - "Clinical_trial"
+    validations:
+      required: false
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details of your request
+      description: Explain your proposal, questions, or concerns.
+      placeholder: "I would like to add X to Y because…"
+    validations:
+      required: true
