@@ -23,7 +23,7 @@
     skos:prefLabel "Birthyear"@en ;
     skos:definition "The year of birth for the patient."@en .
 
-<https://w3id.org/CARE-SM#country_at_birth>
+<https://w3id.org/CARE-SM#birthplace>
     a skos:Concept ;
     skos:inScheme <https://w3id.org/CARE-SM> ;
     skos:prefLabel "Country at birth"@en ;
@@ -80,13 +80,13 @@
     skos:definition "The diagnosed medical condition or disease."@en .
 
 # Concepts from Clinical and molecular measurements
-<https://w3id.org/CARE-SM#laboratory_measurement>
+<https://w3id.org/CARE-SM#laboratory>
     a skos:Concept ;
     skos:inScheme <https://w3id.org/CARE-SM> ;
     skos:prefLabel "Laboratory measurement"@en ;
     skos:definition "Results from laboratory tests and analyses."@en .
 
-<https://w3id.org/CARE-SM#genetic_testing>
+<https://w3id.org/CARE-SM#genetic>
     a skos:Concept ;
     skos:inScheme <https://w3id.org/CARE-SM> ;
     skos:prefLabel "Genetic testing"@en ;
@@ -106,12 +106,6 @@
     skos:definition "Assessment of the patient's disabilities or functional limitations."@en .
 
 # Concepts from Treatments and interventions
-<https://w3id.org/CARE-SM#prescription>
-    a skos:Concept ;
-    skos:inScheme <https://w3id.org/CARE-SM> ;
-    skos:prefLabel "Prescription"@en ;
-    skos:definition "Details of prescribed treatments or medications."@en .
-
 <https://w3id.org/CARE-SM#medication>
     a skos:Concept ;
     skos:inScheme <https://w3id.org/CARE-SM> ;
@@ -124,7 +118,7 @@
     skos:prefLabel "Hospitalization"@en ;
     skos:definition "Records of hospital admissions and stays."@en .
 
-<https://w3id.org/CARE-SM#surgical_intervention>
+<https://w3id.org/CARE-SM#surgery>
     a skos:Concept ;
     skos:inScheme <https://w3id.org/CARE-SM> ;
     skos:prefLabel "Surgical intervention"@en ;
@@ -148,3 +142,9 @@
     skos:inScheme <https://w3id.org/CARE-SM> ;
     skos:prefLabel "Clinical trial"@en ;
     skos:definition "Participation in clinical trials."@en .
+
+<https://w3id.org/CARE-SM#cohort>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Clinical trial"@en ;
+    skos:definition "Participation in cohort study."@en .
