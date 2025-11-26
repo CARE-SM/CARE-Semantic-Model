@@ -30,7 +30,7 @@ body:
         - "Birthdate"
         - "Birthyear"
         - "Deathdate"
-        - "Country"
+        - "Birthplace"
         - "Sex"
         - "Status"
         - "First_visit"
@@ -42,13 +42,13 @@ body:
         - "Genetic"
         - "Questionnaire"
         - "Disability"
-        - "Prescription"
         - "Medication"
         - "Surgery"
         - "Hospitalization"
         - "Biobank"
         - "Consent"
         - "Clinical_trial"
+        - "Cohort"
     validations:
       required: false
 
