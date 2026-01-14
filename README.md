@@ -1,9 +1,13 @@
 # Clinical And Registry Entries (CARE) Semantic Model
+![GitHub tag](https://img.shields.io/github/v/tag/CARE-SM/CARE-Semantic-Model)
+[![License](https://img.shields.io/github/license/CARE-SM/CARE-Semantic-Model)](LICENSE)
+[![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-contributor%20covenant-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 <p align="center"> 
     <img src="https://github.com/CARE-SM/CARE-SM-docs/blob/main/docs/assets/care-sm.png?raw=true"width="300" height="300"> 
 <p align="center" > </p> 
 <p align="center"><b>Take CARE of your data! FAIRly!</b></p>
+
 
 ## Full Documentation
 
