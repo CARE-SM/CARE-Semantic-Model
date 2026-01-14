@@ -1,0 +1,164 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/CARE-SM>
+    a skos:ConceptScheme ;
+    rdfs:label "CARE Semantic Model Data Elements"@en ;
+    skos:definition "The core data elements of the CARE-SM for healthcare patient information in registries."@en ;
+    skos:note "Each concept corresponds to a specific data element from the CARE-SM list, used to structure clinical and registry data via knowledge graphs."@en .
+
+<https://w3id.org/CARE-SM#Birthdate>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Date of birth"@en ;
+    skos:definition "The full date of birth for the patient."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#birthdate> .
+
+<https://w3id.org/CARE-SM#Birthyear>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Year of birth"@en ;
+    skos:definition "The year of birth for the patient."@en;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#birthyear> .
+
+<https://w3id.org/CARE-SM#Birthplace>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Place at birth"@en ;
+    skos:definition "The country where the patient was born."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#birthplace> .
+
+<https://w3id.org/CARE-SM#Deathdate>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Date of death"@en ;
+    skos:definition "The date of death for the patient, if applicable."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#deathdate> .
+
+<https://w3id.org/CARE-SM#Sex>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Biological sex"@en ;
+    skos:definition "The biological sex of the patient."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#sex> .
+
+<https://w3id.org/CARE-SM#First_visit>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "First confirmed visit"@en ;
+    skos:definition "The date of the patient's first confirmed clinical visit."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#first-visit> .
+
+<https://w3id.org/CARE-SM#Status>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Participation Status"@en ;
+    skos:definition "The current status of the patient's participation in the registry or study."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#status> .
+
+<https://w3id.org/CARE-SM#Symptoms_onset>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Symptoms onset"@en ;
+    skos:definition "The date or time when symptoms first appeared."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#symptoms-onset> .
+
+<https://w3id.org/CARE-SM#Examination>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Examination"@en ;
+    skos:definition "Results from clinical examinations or assessments."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#examination> .
+
+<https://w3id.org/CARE-SM#Phenotype>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Phenotype"@en ;
+    skos:definition "Observable characteristics or traits of the patient."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#phenotype> .
+
+<https://w3id.org/CARE-SM#Diagnosis>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Diagnosis"@en ;
+    skos:definition "The diagnosed medical condition or disease."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#diagnosis> .
+
+<https://w3id.org/CARE-SM#Laboratory>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Laboratory measurement"@en ;
+    skos:definition "Results from laboratory tests and analyses."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#laboratory> .
+
+<https://w3id.org/CARE-SM#Genetic>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Genetic measurement"@en ;
+    skos:definition "Outcomes from genetic or molecular testing procedures."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#genetic> .
+
+<https://w3id.org/CARE-SM#Questionnaire>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Questionnaire"@en ;
+    skos:definition "Responses from patient-reported questionnaires."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#questionnaire> .
+
+<https://w3id.org/CARE-SM#Disability>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Disability"@en ;
+    skos:definition "Assessment of the patient's disabilities or functional limitations."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#disability> .
+
+<https://w3id.org/CARE-SM#Medication>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Medication"@en ;
+    skos:definition "Information on administered or prescribed medications."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#medication> .
+
+<https://w3id.org/CARE-SM#Hospitalization>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Hospitalization"@en ;
+    skos:definition "Records of hospital admissions and stays."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#hospitalization> .
+
+<https://w3id.org/CARE-SM#Surgery>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Surgical intervention"@en ;
+    skos:definition "Details of surgical procedures performed."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#surgery> .
+
+<https://w3id.org/CARE-SM#Biobank>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Biobank"@en ;
+    skos:definition "Information on biological samples stored in biobanks."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#biobank> .
+
+<https://w3id.org/CARE-SM#Consent>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Consent"@en ;
+    skos:definition "Patient consent status"@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#consent> .
+
+<https://w3id.org/CARE-SM#Clinical_trial>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Clinical trial"@en ;
+    skos:definition "Participation in a clinical trial."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#clinical-trial> .
+
+<https://w3id.org/CARE-SM#Cohort>
+    a skos:Concept ;
+    skos:inScheme <https://w3id.org/CARE-SM> ;
+    skos:prefLabel "Cohort"@en ;
+    skos:definition "Participation in cohort study."@en ;
+    rdfs:seeAlso <https://care-sm.readthedocs.io/en/latest/data_elements.html#cohort> .
