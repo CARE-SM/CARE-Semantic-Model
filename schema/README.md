@@ -1,10 +1,15 @@
-# RDF-Quad Validation using SPARQL
+# CARE-SM Schema
 
-This project uses **pure SPARQL queries** to validate RDF-Quads data. Traditional. To ensure full control and compatibility with RDF named graphs (i.e., quads).
+## SKOS
 
-## How It Works
+File: [care-sm.skos](https://github.com/CARE-SM/CARE-Semantic-Model/tree/main/schema/care-sm.skos)
 
-- The query uses `FILTER NOT EXISTS` to find violations by checking the absence of required triples.
-- If the result set is empty, the dataset is considered valid.
+CARE-SM contains its own w3id identifiers to describe each of its data model representations. Using SKOS (Simple Knowledge Organization System), these identifiers are linked to a description and to the CARE-SM documentation page that describes each data model.
 
-The main validation is stored [here](https://github.com/CARE-SM/CARE-Semantic-Model/tree/main/schema/schema.sparql)
+## RDF-Quad Validation
+
+File: [schema.sparql](https://github.com/CARE-SM/CARE-Semantic-Model/tree/main/schema/schema.sparql)
+
+CARE-SM uses **pure SPARQL** to validate the RDF-Quads representation of CARE-SM. This approach is used to ensure full control and compatibility with RDF named graphs, since ShEx and SHACL representations cannot be used to validate RDF Quads.
+
+The validation query uses `FILTER NOT EXISTS` to detect violations by checking for the absence of required triples. If the result set is empty, the dataset is considered valid.
