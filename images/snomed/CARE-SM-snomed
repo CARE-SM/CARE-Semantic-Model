@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1" pages="22">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.7" pages="22">
   <diagram name="Core" id="wqNvo3q_zmdipwh7OtpV">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -855,7 +855,7 @@
             <mxPoint x="2594" y="345.4999999999999" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hSAOt0GrvJ15qUTcBrb9-8" edge="1" parent="YZEXH3QTBPR2wTTSpGqN-1" source="hSAOt0GrvJ15qUTcBrb9-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="hSAOt0GrvJ15qUTcBrb9-9" value="sio:SIO_000300 (has value)">
+        <mxCell id="hSAOt0GrvJ15qUTcBrb9-8" edge="1" parent="YZEXH3QTBPR2wTTSpGqN-1" source="hSAOt0GrvJ15qUTcBrb9-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="hSAOt0GrvJ15qUTcBrb9-9" value="sio:SIO_000300&lt;div&gt;&amp;nbsp;(has value)&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2093" y="193.13" as="sourcePoint" />
           </mxGeometry>
@@ -2322,7 +2322,7 @@
             <mxPoint x="2932" y="757.87" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f4Sp6GeLBufg6wIR85qb-47" parent="1" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;strokeWidth=5;fontSize=14;" value="SCTID:8116006&lt;div&gt;(Phenotype)&lt;/div&gt;" vertex="1">
+        <mxCell id="f4Sp6GeLBufg6wIR85qb-47" parent="1" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#82b366;strokeWidth=5;fontSize=14;" value="SCTID:439401001&lt;div&gt;(Diagnosis)&lt;/div&gt;" vertex="1">
           <mxGeometry height="45" width="210" x="2780" y="847.5" as="geometry" />
         </mxCell>
         <mxCell id="f4Sp6GeLBufg6wIR85qb-52" edge="1" parent="1" source="f4Sp6GeLBufg6wIR85qb-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="f4Sp6GeLBufg6wIR85qb-53" value="rdf:type">
@@ -2777,7 +2777,7 @@
             <mxPoint x="2594" y="342.3699999999999" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMSayrYmbma4OLjFPLgo-8" edge="1" parent="z5Og-EwYywUcRpacxeJd-1" source="rMSayrYmbma4OLjFPLgo-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="rMSayrYmbma4OLjFPLgo-9" value="sio:SIO_000300 (has value)">
+        <mxCell id="rMSayrYmbma4OLjFPLgo-8" edge="1" parent="z5Og-EwYywUcRpacxeJd-1" source="rMSayrYmbma4OLjFPLgo-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" target="rMSayrYmbma4OLjFPLgo-9" value="sio:SIO_000300&lt;div&gt;&amp;nbsp;(has value)&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2093" y="190" as="sourcePoint" />
           </mxGeometry>
